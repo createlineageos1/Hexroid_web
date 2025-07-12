@@ -20,7 +20,7 @@ function backspace_phone() {
 function call_phone() {
   let num = display_phone.innerText;
   display_phone.innerText = " ";
-  if (num != "") tb_system("SIM card not found");
+  if (num != "") tb_system("SIM card not found, maybe plug a new one?");
 }
 
 function tb_system(message) {
